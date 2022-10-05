@@ -1,0 +1,7 @@
+# Snyk (https://snyk.io) policy file
+
+exclude:
+# Use either “global” or “code”. “global” currently applies only to Snyk Code and Snyk IaC products, and it will exclude the specified directories and files from these tests; “code” applies only to the Snyk Code analysis.
+
+    global:
+    - "/*.spec.py"
